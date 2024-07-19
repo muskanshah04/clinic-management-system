@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Patient History</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>📜 Patient History</h2>
+    <div id="patientHistory">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Details</th>
+            <th>Prescription</th>
+            <th>Token</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Patient history data will be inserted here -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="scripts.js"></script>
+  <script src="history.js"></script>
+</body>
+</html>
